@@ -1,0 +1,39 @@
+ul{
+    list-style-type: none;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+.card1,.card2,.card3,.card4,.card5{
+    display: block; 
+    width: 200px;
+    height: 75px;
+    padding: 15px;
+    margin: 50px;
+    align-items: center;
+    float: left;
+    text-align: center;
+    
+}
+
+body{
+    background-color:lightcyan;
+}
+
+.card1{
+    background-color: tomato;
+}
+.card2{
+    background-color: burlywood;
+}
+.card3{
+    background-color: darkseagreen;
+}
+.card4{
+    background-color: indianred;
+}
+.card5{
+    background-color: lightgreen;
+}
+.card1:hover,.card2:hover,.card3:hover,.card4:hover,.card5:hover{
+    background-color: gold;
+}
